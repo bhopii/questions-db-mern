@@ -1,0 +1,23 @@
+{
+  "name": "questions-repo",
+  "version": "1.0.0",
+  "description": "Gets answers quickly",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^6.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.4"
+  }
+}
